@@ -1,3 +1,7 @@
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
 // to get current year
 function getYear() {
     var currentDate = new Date();
@@ -43,8 +47,4 @@ $('.team_carousel').owlCarousel({
             items: 3
         }
     }
-})
-window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
 })

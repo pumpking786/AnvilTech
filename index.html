@@ -38,9 +38,9 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <nav style="padding: 0;" class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>Hostit</span>
+            <span><img src="images/anvilogo.png" alt=""></span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -821,9 +821,3 @@
 </body>
 
 </html>
-<script>
-  window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-})
-</script>
