@@ -4,7 +4,9 @@ body {
   background-color: #f8f8f8;
   overflow-x: hidden;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .layout_padding {
   padding: 90px 0;
 }
