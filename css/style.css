@@ -129,7 +129,7 @@ header{
 }
 header.sticky{
   padding: 5px 5px;
-  background-color: lightcyan;
+  background-color: white;
 }
 .header_section .container-fluid {
   padding-right: 25px;
@@ -298,14 +298,15 @@ header.sticky{
 
 .slider_section .detail-box h1 {
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-size: 3rem;
+  font-family: fraunces;
 }
 .slider_section .detail-box p {
   font-weight: bold;
   font-family: fraunces;
   margin-bottom: 25px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .slider_section .detail-box h1 span {
   font-size: 3rem;
@@ -400,11 +401,12 @@ header.sticky{
       -ms-flex-align: center;
           align-items: center;
 }
-
+#about .col-md-6{
+  margin-top: 10%;
+}
 .about_section .img-box img {
   max-width: 100%;
 }
-
 .about_section .detail-box p {
   color: #999;
   margin-top: 15px;
